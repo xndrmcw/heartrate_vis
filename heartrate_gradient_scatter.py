@@ -3,7 +3,7 @@ import pandas as pd
 
 
 
-data = pd.read_csv(r"C:\Users\Alexander\Desktop\Fun Programming\catherine_birthday_HR.csv")
+data = pd.read_csv(r"C:\Users\Alexander\Desktop\Fun Programming\birthday_HR.csv")
 
 x_axis = list(data.iloc[:, 0])
 y_axis = list(data.iloc[:, 1])
