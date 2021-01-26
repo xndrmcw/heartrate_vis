@@ -1,7 +1,7 @@
 import plotly.graph_objects as go
 import pandas as pd
 
-data = pd.read_csv(r"C:\Users\Alexander\Desktop\Fun Programming\catherine_birthday_HR.csv")
+data = pd.read_csv(r"C:\Users\Alexander\Desktop\Fun Programming\birthday_HR.csv")
 
 #x_axis = list(range(data.shape[0] - 1))
 x_axis = list(data.iloc[:, 0])
